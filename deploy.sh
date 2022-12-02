@@ -12,5 +12,8 @@ npm install -g pm2
 
 git clone https://github.com/mizhstreet/nodejs-simple-server-for-ec2.git
 
+pm2 startup
+
 pm2 start nodejs-simple-server-for-ec2/server/server.js
 
+pm2 save
