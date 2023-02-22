@@ -1,5 +1,5 @@
 const http = require("http");
-const PORT = process.env.PORT || 88;
+const PORT = process.env.PORT || 80;
 
 const server = http.createServer(async (req, res) => {
     //set the request route
